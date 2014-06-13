@@ -143,4 +143,12 @@ xyplot(mean~interval|status,
        type = "l",layout = c(1,2),
        ylab = "Number of steps")
 ```
-
+## Guid to reproduce the result 
+* put the "activity.zip" under the working directory"
+* open the script by R studio 
+* clik knit HTML 
+* packages required: ggplot2, lattice, plyr,
+* section information as follows 
+```{r}
+sessionInfo()
+```

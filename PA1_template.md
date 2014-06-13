@@ -220,4 +220,35 @@ xyplot(mean~interval|status,
 ```
 
 ![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10.png) 
+## Guid to reproduce the result 
+* put the "activity.zip" under the working directory"
+* open the script by R studio 
+* clik knit HTML 
+* packages required: ggplot2, lattice, plyr,
+* section information as follows 
 
+```r
+sessionInfo()
+```
+
+```
+## R version 3.0.2 (2013-09-25)
+## Platform: x86_64-w64-mingw32/x64 (64-bit)
+## 
+## locale:
+## [1] LC_COLLATE=English_Singapore.1252  LC_CTYPE=English_Singapore.1252   
+## [3] LC_MONETARY=English_Singapore.1252 LC_NUMERIC=C                      
+## [5] LC_TIME=English_Singapore.1252    
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets  methods   base     
+## 
+## other attached packages:
+## [1] lattice_0.20-29 ggplot2_1.0.0   plyr_1.8.1      knitr_1.6      
+## 
+## loaded via a namespace (and not attached):
+##  [1] colorspace_1.2-4 digest_0.6.4     evaluate_0.5.5   formatR_0.10    
+##  [5] grid_3.0.2       gtable_0.1.2     labeling_0.2     MASS_7.3-33     
+##  [9] munsell_0.4.2    proto_0.3-10     Rcpp_0.11.1      reshape2_1.4    
+## [13] scales_0.2.4     stringr_0.6.2    tools_3.0.2
+```
